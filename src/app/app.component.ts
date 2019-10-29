@@ -15,7 +15,6 @@ import {Label} from 'ng2-charts';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  text: any;
   lineChartData: ChartDataSets[];
   lineChartLabels: Label[];
   lineChartOptions: (ChartOptions & { annotation: any });
